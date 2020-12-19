@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Data.Entities.Incident">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Members>
+      <Property Name="Loss" Hidden="true" />
+      <Property Name="Lossld" Hidden="true" />
+      <Property Name="Mark_frequency" Hidden="true" />
+      <Property Name="Mark_frequencyld" Hidden="true" />
+      <Property Name="Mark_loss" Hidden="true" />
+      <Property Name="Mark_lossId" Hidden="true" />
+      <Property Name="Mark_quantity" Hidden="true" />
+      <Property Name="Mark_quantityId" Hidden="true" />
+      <Property Name="Mark_time" Hidden="true" />
+      <Property Name="Mark_timeId" Hidden="true" />
+      <Property Name="ObjectRisk" Hidden="true" />
+      <Property Name="ObjectRiskId" Hidden="true" />
+      <Property Name="ObjectRiskName" Hidden="true" />
+      <Property Name="SourceRisk" Hidden="true" />
+      <Property Name="SourceRiskId" Hidden="true" />
+      <Property Name="Unit" Hidden="true" />
+      <Property Name="Unitld" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ECAAoACUwAAgFAAAICBAAgAAQBAAAAAhwAGEAAkDAAo=</HashCode>
+      <FileName>Entities\Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.Loss">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Entities\Loss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.Mark_frequency">
+    <Position X="6.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAACQAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Mark_frequency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.Mark_loss">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAQAAAAAgAAAAAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Entities\Mark_loss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.Mark_quantity">
+    <Position X="2.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAQAAAAAAEAAAAAAIAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Entities\Mark_quantity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.Mark_time">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAQAAAABAAAIAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Mark_time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.ObjectRisk">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ObjectRisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.SourceRisk">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="SourceRisk" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAIAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\SourceRisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Entities.Unit">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAEAAAAAAA=</HashCode>
+      <FileName>Entities\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
